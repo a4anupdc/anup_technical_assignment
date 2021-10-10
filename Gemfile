@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
-gem 'rest-client'
 gem 'capybara'
 gem 'capybara-screenshot'
-gem 'json'
 gem 'cucumber'
+gem 'json'
+gem 'rest-client'
 gem 'rspec'
 gem 'selenium-webdriver'
