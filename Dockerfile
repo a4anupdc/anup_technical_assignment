@@ -29,7 +29,6 @@ ADD Gemfile.lock /app/Gemfile.lock
 RUN /bin/bash -l -c "bundle install"
 
 ADD features /app/features
-ADD build /app/build
 
 ADD cucumber-run.sh /app/cucumber-run.sh
 RUN chmod a+x /app/cucumber-run.sh

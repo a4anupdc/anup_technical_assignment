@@ -1,21 +1,24 @@
+# frozen_string_literal: true
+
+# Module with all helper methods needed for REST operations.
 module RestClientHelper
   def self.post(url, headers = {}, payload)
-    resp = RestClient.post(url,payload,headers)
+    RestClient.post(url, payload, headers)
   end
 
   def self.put(url, headers = {}, payload)
-    resp = RestClient.put(url,payload,headers)
+    RestClient.put(url, payload, headers)
   end
 
   def self.delete(url)
-    resp = RestClient.delete(url)
+    RestClient.delete(url)
   end
 
   def self.patch(url, headers = {}, payload)
-    resp = RestClient.patch(url,payload,headers)
+    RestClient.patch(url, payload, headers)
   end
 
   def self.get(url, headers = {})
-    resp = RestClient.get(url,headers)
+    RestClient.get(url, headers)
   end
 end
