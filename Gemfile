@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'rest-client'
+gem 'capybara'
+gem 'capybara-screenshot'
+gem 'json'
+gem 'cucumber'
+gem 'rspec'
+gem 'selenium-webdriver'
